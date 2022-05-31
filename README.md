@@ -1,16 +1,8 @@
 # thememanager
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# flutter project 
+<br>
+**In this we have created a Theme Manager So that  it can Work with Even Get or Provider State management with Storing the last change**
+#Preview
+![preview 1](https://github.com/Manishmg3994/readme/blob/main/screenshot/dektop.png)
+![preview2](https://github.com/Manishmg3994/readme/blob/main/screenshot/dektop1.png)
