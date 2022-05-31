@@ -1,0 +1,10 @@
+^D:\ADEVELOPEMENT\THEMEMANAGER\BUILD\WINDOWS\CMAKEFILES\8934387BF67358B84135F9E3A4FEA6FD\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

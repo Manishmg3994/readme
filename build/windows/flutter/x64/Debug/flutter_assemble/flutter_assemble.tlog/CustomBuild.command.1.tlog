@@ -1,0 +1,28 @@
+^D:\ADEVELOPEMENT\THEMEMANAGER\BUILD\WINDOWS\CMAKEFILES\BC3592A2B15BE9BFAFF0292DDE1196E4\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter PROJECT_DIR=D:\adevelopement\thememanager FLUTTER_ROOT=C:\src\flutter FLUTTER_EPHEMERAL_DIR=D:\adevelopement\thememanager\windows\flutter\ephemeral PROJECT_DIR=D:\adevelopement\thememanager FLUTTER_TARGET=D:\adevelopement\thememanager\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=D:\adevelopement\thememanager\.dart_tool\package_config.json C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ADEVELOPEMENT\THEMEMANAGER\BUILD\WINDOWS\CMAKEFILES\0219FE90560376C575DD2043649F1B28\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ADEVELOPEMENT\THEMEMANAGER\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/adevelopement/thememanager/windows -BD:/adevelopement/thememanager/build/windows --check-stamp-file D:/adevelopement/thememanager/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
